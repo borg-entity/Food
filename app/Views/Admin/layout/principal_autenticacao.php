@@ -5,7 +5,7 @@
       <!-- Required meta tags -->
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>Food Delivery | <?php echo $this->renderSection('titulo') ?></title>
+      <title>Food Delivery | <?php echo $this->renderSection('titulo'); ?></title>
       <!-- plugins:css -->
     
       <link rel="stylesheet" href="<?php echo site_url('admin/'); ?>vendors/mdi/css/materialdesignicons.min.css">
@@ -20,14 +20,14 @@
       <link rel="shortcut icon" href="<?php echo site_url('admin/'); ?>images/favicon.png">
     
       <!-- Essa section  renderizará os estilos especificos da view que estender este layout -->
-      <?php echo $this->renderSection('estilos') ?>
+      <?php echo $this->renderSection('estilos'); ?>
 </head>
 
 <body>
   <div class="container-scroller">
     
     <!-- Essa section  renderizará os econteudos especificos da view que estender este layout -->
-    <?php echo $this->renderSection('conteudo') ?>   
+    <?php echo $this->renderSection('conteudo'); ?>   
     
     <div class="container-fluid page-body-wrapper full-page-wrapper">
       <div class="content-wrapper d-flex align-items-center auth px-0">

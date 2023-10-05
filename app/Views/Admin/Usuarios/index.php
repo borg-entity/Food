@@ -1,4 +1,4 @@
-<?php echo $this->extend('Admin/layout/principal') ?>
+<?php echo $this->extend('Admin/layout/principal'); ?>
 
 <?php echo $this->section('titulo') ?> <?php echo $titulo; ?> <?php echo $this->endSection(); ?>
 
@@ -79,7 +79,7 @@
                     </table>
                     
                     <div class="mt-3">
-                         <?php echo $pager->links() ?>
+                         <?php echo $pager->links(); ?>
                     </div>
                     
                   </div>

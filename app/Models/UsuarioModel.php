@@ -78,8 +78,8 @@ class UsuarioModel extends Model
 
     public function desabilitaValidacaoSenha() {
         
-        unset ($this->validationRules['password']);
-        unset ($this->validationRules['password_confirmation']);
+        unset($this->validationRules['password']);
+        unset($this->validationRules['password_confirmation']);
         
     } 
 

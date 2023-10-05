@@ -49,13 +49,6 @@
               </div>
             </div>
           </div>
-
-<?php echo $this->endSection(); ?>
-
-
-<?php echo $this->section('scripts'); ?>
-    
-    <script src="<?php echo site_url('admin/vendors/mask/jquery.mask.min.js'); ?>"></script>
-    <script src="<?php echo site_url('admin/vendors/mask/app.js'); ?>"></script>
-    
+          </div>
+          
 <?php echo $this->endSection(); ?>

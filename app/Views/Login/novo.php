@@ -1,13 +1,13 @@
-<?php echo $this->extend('Admin/layout/principal_autenticacao') ?>
+<?php echo $this->extend('Admin/layout/principal_autenticacao'); ?>
 
-<?php echo $this->section('titulo') ?> <?php echo $titulo; ?> <?php echo $this->endSection(); ?>
+<?php echo $this->section('titulo'); ?> <?php echo $titulo; ?> <?php echo $this->endSection(); ?>
 
 
 <?php echo $this->section('estilos'); ?>
     
     <!--Aqui enviamos para o template principal os stilos -->
 
-<?php echo $this->endSection() ?>
+<?php echo $this->endSection(); ?>
 
 <?php echo $this->section('conteudo'); ?>
 
@@ -17,7 +17,7 @@
           <div class="col-lg-5 mx-auto">
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
 
-<!-------------------------- !>
+<!-------------------------->
 
                 <?php  if (session()->has('sucesso')): ?>
 
@@ -71,6 +71,7 @@
               </div>
               <h4>Olá, seja seja bem vindo (a)!</h4>
               <h6 class="font-weight-light mb-3">Por favor realize o login.</h6>
+              
               <?php echo form_open('login/criar'); ?>
               
               
@@ -84,10 +85,14 @@
                   <button type="submit" class="btn  btn-primary btn-lg font-weight-medium auth-form-btn">Entrar</button>
                 </div>
 
+                <div class="mt-3 d-flex justify-content-between align-items-center">
+                        <a href="<?php echo site_url ('password/esqueci'); ?>" class="auth-link text-black">Esqueci a minha senha?</a>
+                </div>
+
                 <div class="text-center mt-4 font-weight-light">
                   Ainda não tem uma conta? <a href="<?php echo site_url('registrar'); ?>" class="text-primary">Criar conta</a>
                 </div>
-              <?php echo form_close();?>
+              <?php echo form_close(); ?>
             </div>
           </div>
         </div>
@@ -95,12 +100,12 @@
       <!-- content-wrapper ends -->
     </div>
     
-<?php echo $this->endSection() ?>
+<?php echo $this->endSection(); ?>
 
 
 <?php echo $this->section('script'); ?>
     
     <!--Aqui enviamos para o template principal os script -->
 
-<?php echo $this->endSection() ?>
+<?php echo $this->endSection(); ?>
 

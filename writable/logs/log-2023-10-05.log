@@ -1,0 +1,39 @@
+INFO - 2023-10-05 01:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 01:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 01:10:02 --> CSRF token verified.
+ERROR - 2023-10-05 01:10:03 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-10-05 01:10:03 --> 220 smtp.gmail.com ESMTP l18-20020a170902d35200b001c0aa301703sm212933plk.63 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2804:14d:78a5:9046:194b:e772:4a73:85e5]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Falha ao autenticar a senha. Erro: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials l18-20020a170902d35200b001c0aa301703sm212933plk.63 - gsmtp
+
+INFO - 2023-10-05 01:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 01:10:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 01:10:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 01:10:17 --> CSRF token verified.
+ERROR - 2023-10-05 01:10:18 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-10-05 01:10:18 --> 220 smtp.gmail.com ESMTP i17-20020a170902eb5100b001c723d6c410sm213786pli.16 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2804:14d:78a5:9046:194b:e772:4a73:85e5]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Falha ao autenticar a senha. Erro: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials i17-20020a170902eb5100b001c723d6c410sm213786pli.16 - gsmtp
+
+INFO - 2023-10-05 01:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-05 01:10:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

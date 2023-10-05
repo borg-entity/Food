@@ -3,13 +3,19 @@
 namespace App\Libraries;
 
 /*
- * @descrção  estq biblioteca /  classe cuidará  da parte  de autenticação  da nossa  aplicação
+ * @descrção  esta biblioteca /  classe cuidará  da parte  de autenticação  da nossa  aplicação
  */
 
  class Autenticacao {
     
     private $usuario;
     
+    /**
+     *
+     *@param string $email
+     *@param string $passaword
+     *@return boolean
+     */
     public function login(string $email, string $password) {
             
        $usuarioModel = new \App\Models\UsuarioModel();
@@ -24,20 +30,19 @@ namespace App\Libraries;
        /* Se a senha não combinar com o password_hash, retorna  false */
       
        if (!$usuario->verificaPassword($password)) {
-        
            return false;
        }
 
        /*  Só permitiremos permitiremos o login de usuários ativos */
        if (!$usuario->ativo){
+
             return false;
        }
     
        /*  Neste ponto está tudo certo e podemos e podemo logar o usuario  na aplicaçã invocando o método abaixo*/
        $this->logaUsuario($usuario);    
     
-    
-       return true;
+       return true; 
     }
         
         
@@ -52,7 +57,7 @@ namespace App\Libraries;
         /* Não esquecer de compartilhar a instancia com services*/
         
         if ($this->usuario === null) {
-   
+    
             $this->usuario = $this->pegaUsuarioDaSessao();                     
         }
         
@@ -75,7 +80,7 @@ namespace App\Libraries;
          * Não esquecer de compartilhar  a instâncxia com o services
          */
         
-        return $this->pegaUsuarioLogado()  !== null;
+        return $this->pegaUsuarioLogado() !== null;
     
    }
 

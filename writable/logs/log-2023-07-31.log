@@ -1,0 +1,54 @@
+INFO - 2023-07-31 03:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:26:45 --> CSRF token verified.
+CRITICAL - 2023-07-31 03:26:45 --> Call to a member function buscaUsuarioPorEmail() on null
+in APPPATH\Controllers\Password.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Password->processaEsqueci()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-07-31 03:45:00 --> CSRF token verified.
+CRITICAL - 2023-07-31 03:45:00 --> Call to a member function buscaUsuarioPorEmail() on null
+in APPPATH\Controllers\Password.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Password->processaEsqueci()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-07-31 03:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 03:45:12 --> CSRF token verified.
+CRITICAL - 2023-07-31 03:45:12 --> Call to a member function buscaUsuarioPorEmail() on null
+in APPPATH\Controllers\Password.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Password->processaEsqueci()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-07-31 03:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 04:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-31 04:08:54 --> CSRF token verified.
+CRITICAL - 2023-07-31 04:08:54 --> Call to undefined method App\Controllers\Password::buscaUsuarioPorEmail()
+in APPPATH\Controllers\Password.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Password->processaEsqueci()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-07-31 04:16:17 --> CSRF token verified.
+CRITICAL - 2023-07-31 04:16:17 --> Undefined variable: usuarioModel
+in APPPATH\Controllers\Password.php on line 32.
+ 1 APPPATH\Controllers\Password.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: usuarioModel', 'APPPATH\\Controllers\\Password.php', 32, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Password->processaEsqueci()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-07-31 04:16:30 --> CSRF token verified.
+CRITICAL - 2023-07-31 04:16:30 --> Undefined variable: usuarioModel
+in APPPATH\Controllers\Password.php on line 32.
+ 1 APPPATH\Controllers\Password.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: usuarioModel', 'APPPATH\\Controllers\\Password.php', 32, [])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Password->processaEsqueci()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

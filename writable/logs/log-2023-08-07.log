@@ -1,0 +1,89 @@
+CRITICAL - 2023-08-07 13:43:40 --> syntax error, unexpected 'if' (T_IF)
+in APPPATH\Controllers\Password.php on line 38.
+ 1 SYSTEMPATH\Router\Router.php(507): CodeIgniter\Router\AutoRouter->getRoute('password/processaEsqueci')
+ 2 SYSTEMPATH\Router\Router.php(206): CodeIgniter\Router\Router->autoRoute('password/processaEsqueci')
+ 3 SYSTEMPATH\CodeIgniter.php(815): CodeIgniter\Router\Router->handle('password/processaEsqueci')
+ 4 SYSTEMPATH\CodeIgniter.php(449): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-08-07 13:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 13:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 13:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 13:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 13:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 13:53:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 13:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 13:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 14:36:58 --> CSRF token verified.
+CRITICAL - 2023-08-07 14:36:58 --> Call to a member function buscaUsuarioPorEmail() on null
+in APPPATH\Controllers\Password.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Password->processaEsqueci()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-08-07 14:37:22 --> CSRF token verified.
+CRITICAL - 2023-08-07 14:37:22 --> Call to a member function buscaUsuarioPorEmail() on null
+in APPPATH\Controllers\Password.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Password->processaEsqueci()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-08-07 15:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 15:01:48 --> CSRF token verified.
+CRITICAL - 2023-08-07 15:01:48 --> Call to a member function buscaUsuarioPorEmail() on null
+in APPPATH\Controllers\Password.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Password->processaEsqueci()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-08-07 15:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 15:02:07 --> CSRF token verified.
+CRITICAL - 2023-08-07 15:02:07 --> Call to a member function buscaUsuarioPorEmail() on null
+in APPPATH\Controllers\Password.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Password->processaEsqueci()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-08-07 15:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 15:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 15:02:36 --> CSRF token verified.
+INFO - 2023-08-07 15:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 15:03:29 --> CSRF token verified.
+INFO - 2023-08-07 15:23:37 --> CSRF token verified.
+INFO - 2023-08-07 15:23:59 --> CSRF token verified.
+CRITICAL - 2023-08-07 15:23:59 --> Call to a member function buscaUsuarioPorEmail() on null
+in APPPATH\Controllers\Password.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Password->processaEsqueci()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-08-07 15:24:03 --> CSRF token verified.
+CRITICAL - 2023-08-07 15:24:03 --> Call to a member function buscaUsuarioPorEmail() on null
+in APPPATH\Controllers\Password.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Password->processaEsqueci()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-08-07 15:24:12 --> CSRF token verified.
+CRITICAL - 2023-08-07 15:24:12 --> Call to a member function buscaUsuarioPorEmail() on null
+in APPPATH\Controllers\Password.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Password->processaEsqueci()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-08-07 15:24:23 --> CSRF token verified.
+CRITICAL - 2023-08-07 15:24:23 --> Call to a member function buscaUsuarioPorEmail() on null
+in APPPATH\Controllers\Password.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Password->processaEsqueci()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Password))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

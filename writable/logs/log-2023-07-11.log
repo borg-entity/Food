@@ -1,0 +1,263 @@
+CRITICAL - 2023-07-11 01:41:00 --> Undefined variable: autenticacao
+in APPPATH\Filters\VisitanteFilter.php on line 31.
+ 1 APPPATH\Filters\VisitanteFilter.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: autenticacao', 'APPPATH\\Filters\\VisitanteFilter.php', 31, [...])
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\VisitanteFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-07-11 01:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 01:56:08 --> Undefined variable: autenticacao
+in APPPATH\Filters\VisitanteFilter.php on line 31.
+ 1 APPPATH\Filters\VisitanteFilter.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: autenticacao', 'APPPATH\\Filters\\VisitanteFilter.php', 31, [...])
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\VisitanteFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-11 01:56:10 --> Undefined variable: autenticacao
+in APPPATH\Filters\VisitanteFilter.php on line 31.
+ 1 APPPATH\Filters\VisitanteFilter.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: autenticacao', 'APPPATH\\Filters\\VisitanteFilter.php', 31, [...])
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\VisitanteFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-07-11 01:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 01:56:26 --> Undefined variable: autenticacao
+in APPPATH\Filters\VisitanteFilter.php on line 31.
+ 1 APPPATH\Filters\VisitanteFilter.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: autenticacao', 'APPPATH\\Filters\\VisitanteFilter.php', 31, [...])
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\VisitanteFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-07-11 01:56:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 01:56:41 --> Undefined variable: autenticacao
+in APPPATH\Filters\VisitanteFilter.php on line 31.
+ 1 APPPATH\Filters\VisitanteFilter.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: autenticacao', 'APPPATH\\Filters\\VisitanteFilter.php', 31, [...])
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\VisitanteFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-11 01:56:45 --> Undefined variable: autenticacao
+in APPPATH\Filters\VisitanteFilter.php on line 31.
+ 1 APPPATH\Filters\VisitanteFilter.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: autenticacao', 'APPPATH\\Filters\\VisitanteFilter.php', 31, [...])
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\VisitanteFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-11 01:56:50 --> Undefined variable: autenticacao
+in APPPATH\Filters\VisitanteFilter.php on line 31.
+ 1 APPPATH\Filters\VisitanteFilter.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: autenticacao', 'APPPATH\\Filters\\VisitanteFilter.php', 31, [...])
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\VisitanteFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-11 01:56:51 --> Undefined variable: autenticacao
+in APPPATH\Filters\VisitanteFilter.php on line 31.
+ 1 APPPATH\Filters\VisitanteFilter.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: autenticacao', 'APPPATH\\Filters\\VisitanteFilter.php', 31, [...])
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\VisitanteFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-07-11 01:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 01:57:50 --> Undefined variable: autenticacao
+in APPPATH\Filters\VisitanteFilter.php on line 31.
+ 1 APPPATH\Filters\VisitanteFilter.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: autenticacao', 'APPPATH\\Filters\\VisitanteFilter.php', 31, [...])
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\VisitanteFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-11 01:58:20 --> Undefined variable: autenticacao
+in APPPATH\Filters\VisitanteFilter.php on line 31.
+ 1 APPPATH\Filters\VisitanteFilter.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: autenticacao', 'APPPATH\\Filters\\VisitanteFilter.php', 31, [...])
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\VisitanteFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+CRITICAL - 2023-07-11 01:58:21 --> Undefined variable: autenticacao
+in APPPATH\Filters\VisitanteFilter.php on line 31.
+ 1 APPPATH\Filters\VisitanteFilter.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: autenticacao', 'APPPATH\\Filters\\VisitanteFilter.php', 31, [...])
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\VisitanteFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-07-11 01:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 01:59:30 --> Undefined variable: autenticacao
+in APPPATH\Filters\VisitanteFilter.php on line 31.
+ 1 APPPATH\Filters\VisitanteFilter.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: autenticacao', 'APPPATH\\Filters\\VisitanteFilter.php', 31, [...])
+ 2 SYSTEMPATH\Filters\Filters.php(173): App\Filters\VisitanteFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('login', 'before')
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+INFO - 2023-07-11 01:59:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 02:06:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 02:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 02:49:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-11 03:06:53 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-11 03:06:53 --> 220 smtp.gmail.com ESMTP d3-20020a0568301b6300b006b991ac6408sm11802ote.40 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2804:14d:78a5:9046:3088:916a:eab0:4296]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2804:14d:78a5:9046:3088:916a:eab0:4296]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError d3-20020a0568301b6300b006b991ac6408sm11802ote.40 - gsmtp
+
+O seguinte erro SMTP foi encontrado: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError d3-20020a0568301b6300b006b991ac6408sm11802ote.40 - gsmtp
+
+quit: 221 2.0.0 closing connection d3-20020a0568301b6300b006b991ac6408sm11802ote.40 - gsmtp
+
+ERROR - 2023-07-11 03:11:11 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-11 03:11:11 --> 220 smtp.gmail.com ESMTP b1-20020a056870b24100b001a9eb707366sm613771oam.15 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2804:14d:78a5:9046:3088:916a:eab0:4296]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2804:14d:78a5:9046:3088:916a:eab0:4296]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError b1-20020a056870b24100b001a9eb707366sm613771oam.15 - gsmtp
+
+O seguinte erro SMTP foi encontrado: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError b1-20020a056870b24100b001a9eb707366sm613771oam.15 - gsmtp
+
+quit: 221 2.0.0 closing connection b1-20020a056870b24100b001a9eb707366sm613771oam.15 - gsmtp
+
+ERROR - 2023-07-11 03:11:16 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-11 03:11:16 --> 220 smtp.gmail.com ESMTP l11-20020aca190b000000b003a3702dffe8sm525993oii.45 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2804:14d:78a5:9046:3088:916a:eab0:4296]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+starttls: 220 2.0.0 Ready to start TLS
+
+hello: 250-smtp.gmail.com at your service, [2804:14d:78a5:9046:3088:916a:eab0:4296]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError l11-20020aca190b000000b003a3702dffe8sm525993oii.45 - gsmtp
+
+O seguinte erro SMTP foi encontrado: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError l11-20020aca190b000000b003a3702dffe8sm525993oii.45 - gsmtp
+
+quit: 221 2.0.0 closing connection l11-20020aca190b000000b003a3702dffe8sm525993oii.45 - gsmtp
+
+ERROR - 2023-07-11 03:18:27 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-11 03:18:27 --> 220 smtp.gmail.com ESMTP z19-20020a9d7a53000000b006b8c505d8aesm586580otm.34 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2804:14d:78a5:9046:3088:916a:eab0:4296]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+from: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError z19-20020a9d7a53000000b006b8c505d8aesm586580otm.34 - gsmtp
+
+O seguinte erro SMTP foi encontrado: 530-5.7.0 Authentication Required. Learn more at
+530 5.7.0  https://support.google.com/mail/?p=WantAuthError z19-20020a9d7a53000000b006b8c505d8aesm586580otm.34 - gsmtp
+
+quit: 221 2.0.0 closing connection z19-20020a9d7a53000000b006b8c505d8aesm586580otm.34 - gsmtp
+
+ERROR - 2023-07-11 03:19:19 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-11 03:19:19 --> 220 smtp.gmail.com ESMTP l11-20020a0568301d6b00b006b8bf76174fsm597658oti.21 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2804:14d:78a5:9046:3088:916a:eab0:4296]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Falha ao autenticar a senha. Erro: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials l11-20020a0568301d6b00b006b8bf76174fsm597658oti.21 - gsmtp
+
+ERROR - 2023-07-11 03:39:14 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-11 03:39:14 --> 220 smtp.gmail.com ESMTP o4-20020a4aabc4000000b0056351d2841asm442596oon.20 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2804:14d:78a5:9046:3088:916a:eab0:4296]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Falha ao autenticar a senha. Erro: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o4-20020a4aabc4000000b0056351d2841asm442596oon.20 - gsmtp
+
+ERROR - 2023-07-11 04:04:16 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2023-07-11 04:04:16 --> 220 smtp.gmail.com ESMTP y14-20020a056808130e00b003a1f1933957sm569757oiv.16 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [2804:14d:78a5:9046:3088:916a:eab0:4296]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Falha ao autenticar a senha. Erro: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y14-20020a056808130e00b003a1f1933957sm569757oiv.16 - gsmtp
+

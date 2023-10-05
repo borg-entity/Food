@@ -21,6 +21,10 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
+        'login'=> \App\Filters\LoginFilter::class, // Filtro de login
+        'admin'=> \App\Filters\AdminFilter::class, // Filtro de admin
+        'visitante'=> \App\Filters\VisitanteFilter::class, // Filtro de visitante
+        'throttle' => \App\Filters\ThrottleFilter::class,  // Filtro que ajuda a prevenir ataques de força bruta
     ];
 
     /**
@@ -51,7 +55,9 @@ class Filters extends BaseConfig
      * permits any HTTP method to access a controller. Accessing the controller
      * with a method you don’t expect could bypass the filter.
      */
-    public array $methods = [];
+     public $methods = [
+        'post' => ['throttle',]
+     ];
 
     /**
      * List of filter aliases that should run on any
@@ -60,5 +66,17 @@ class Filters extends BaseConfig
      * Example:
      * 'isLoggedIn' => ['before' => ['account/*', 'profiles/*']]
      */
-    public array $filters = [];
+    public array $filters = [
+           'login' => [
+               'before' => [
+                   'admin/*',  // Todos os Controller  que estão dentro do namespace 'Admin' só serão acessados  após o Login
+                ]
+           ],
+
+          'admin' => [
+               'before' => [
+                   'admin/*', // Todos os Controller  que estão dentro do namespace 'Admin' só serão acessados  por um administrador
+                ]
+           ],
+    ];
 }
